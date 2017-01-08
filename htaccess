@@ -1,0 +1,4 @@
+ <FilesMatch "config\.php$|load_books_images\.php$|load_book_info.php"> 
+Order Deny,Allow
+Deny from All
+ </FilesMatch>

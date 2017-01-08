@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/********HEADER style*********/
+#logo-container{
+    padding: 0;
+    background-color: #F8F8FF;
+}
+.logo{
+    width: 100%;
+}
+h1 a,h1 a:hover{
+    text-decoration: none;
+    color: #8B0000;
+    font-size: 1.2em;
+    font-family: 'Arima Madurai', cursive;
+    text-shadow: 2px 2px 1px #8B0000, 0 0 0.8em #8B0000;
+}
+#logo-container .row{
+    margin: 0;
+}
+.logo-item{
+    padding: 0;
+}
+#main-title p{
+    font-size: 1.4em;
+}
+@media screen and (max-width: 767px) {
+    #logo-container {
+        background-image: url(../images/logo/smoke.jpg);
+        color: #FFFFFF;
+    }
+    h1 a{
+        color: #FFFFFF;
+    }
+    h1 a:hover{
+        color: #FFFFFF;
+    }
+}
+@media screen and (min-width: 992px){
+    h1 a, h1 a:hover{
+        font-size: 1.6em;
+    }
+    #main-title{
+        padding-top: 2%;
+    }
+}
+@media screen and (min-width: 768px){
+    #main-title{
+        padding-top: 1%;
+    }
+}
+/********END HEADER style*********/
+
+/********MAIN CONTENT style*********/
+main{
+    min-height: 500px;
+    border-top: 3px solid #1C1C1C;
+    border-bottom: 3px solid #828282;
+    padding: 30px 0;
+    background-color: #D8BFD8;
+}
+main .row{
+    padding: 0 5px;
+}
+.books-images{
+    padding: 10px 0;
+}
+.books-images:hover{
+    box-shadow: 0 0 10px #000000;
+    background-color: #F0FFF0;
+}
+.books-images img{
+    width: 70%;
+    cursor: pointer;
+}
+.to-about-book{
+    margin-top: 5px;
+    cursor: pointer;
+    height: 40px;
+    font-weight: 600;
+}
+h2{
+    margin-bottom: 30px;
+    color: #8B2252;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+}
+.one-book-image img{
+    width: 100%;
+}
+.button-container{
+    padding-top: 20px;
+}
+.about-book{
+    padding: 15px;
+    text-indent: 30px;
+    border: 3px double #828282;
+    border-radius: 5px;
+    background-color: #FFFACD;
+    font-size: 1.5em;
+}
+@media screen and (max-width: 767px) {
+    .one-book-image img{
+        width: 50%;
+    }
+    .about-book{
+        margin-top: 20px;
+        padding: 20px;
+        text-indent: 30px;
+    }
+}
+/********END MAIN CONTENT style*********/
+
+/********FOOTER style*********/
+footer{
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/********END FOOTER style*********/
